@@ -1,0 +1,141 @@
+/* configuration du menu*/
+#menu
+{
+	position: absolute;	
+	display: block;
+	text-align: center;
+	padding:0px;
+	width: auto;
+	/* Fallback si dégradé non dispo*/
+    background:#D62300;
+
+    /* Dégradés */
+    background: -webkit-linear-gradient(#F65E01,#D62300);
+    background: -moz-linear-gradient(#F65E01,#D62300);
+    background: -o-linear-gradient(#F65E01,#D62300);
+    background: linear-gradient(#F65E01,#D62300);
+	
+}
+#menu ul
+{
+	list-style-type:none;
+}
+#menu li
+{
+	display:inline-block;
+	vertical-align: baseline;
+	width:120px;
+	height:30px;
+	text-align:center;	
+	position:relative;
+	padding: 0px;
+}
+#menu li:hover{
+	background: red;
+    background: -webkit-linear-gradient(left,#222,#555 5%,#555 95%,#222 100%);
+    background: -moz-linear-gradient(left,#222,#555 5%,#555 95%,#222 100%);
+    background: -o-linear-gradient(left,#222,#555 5%,#555 95%,#222 100%);
+    background: linear-gradient(to right,#222,#555 5%,#555 95%,#222 100%);
+    border-radius: 5px;
+
+}
+
+#menu>li ul
+{
+	display: none;
+}
+#menu>li:hover>ul, #menu>li:hover>ul>li:hover>ul
+{
+	display:block;
+	position: absolute;
+	float:left;
+	left:50px;
+	text-align: center;
+	width:180px;
+	height:auto;
+	border-radius: 0px;
+
+	/* Fallback si dégradé non dispo*/
+    background:#D62300;
+
+    /* Dégradés */
+    background: -webkit-linear-gradient(#F65E01,#D62300);
+    background: -moz-linear-gradient(#F65E01,#D62300);
+    background: -o-linear-gradient(#F65E01,#D62300);
+    background: linear-gradient(#F65E01,#D62300);
+
+    top:30px;
+}
+#menu>li:hover>ul>li:hover li
+{
+	top:5px;
+    left:70px;
+
+}
+#menu>li:hover li
+{
+	top:5px;
+	left:-40px;
+	margin: 0px 0px;
+	padding: 0px 0px;
+	text-align: left;
+	width: 150px;
+}
+#menu a{
+	
+}
+#menu a:hover{
+	color: black;
+}
+
+header{
+	height: 300px;
+	width: 100%;
+	background-color: green;
+}
+section{
+	height: 800px;
+	width: 100%;
+}
+footer{
+	height: 100px;
+	width: 100%;
+}
+body{
+	width: 100%;
+}
+
+#div_avant_menu{
+	display: block;
+}
+
+#div_logo{
+	display: inline-block;
+	height: 200px;
+	width: 70%;
+
+}
+#div_deconnecte{
+	display: inline-block;
+	float: 80%;
+	width: 200px;
+	vertical-align: bottom;
+	background-color: red;
+}
+#div_menu{
+	display: block;
+	width: 100%;
+	
+}
+#lab_user_connecte{
+	margin-right: 4px;
+	font-size: 20px;
+}
+
+/* bouton de controle */
+.bct{
+	width: 30px;
+	background-color: pink;
+	color: blue;
+	border-radius: 5px;
+}

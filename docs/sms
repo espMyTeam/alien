@@ -1,0 +1,35 @@
+pour l'envoie de sms
+->on execute la fonction envoie.php
+
+Liste des messages:
+1. Inscription
+S<num_SERVICE> <filliale>
+	<filliale>: "SL","DK","TH","DI"
+
+2. Confirmation d'inscription
+S<num_SERVICE> INSCR <uid> 
+
+3. Mensualite
+S<num_SERVICE> MENS <uid>
+ 
+4. Autorisation de paiement
+S<num_SERVICE> PM <code aleatoire> <uid>
+
+5. autorisation d'envoie de tutoriel
+AD <num_tuto> OUI/NON
+
+
+Fonctionnalites
+-> inscription à alientech en faisant S<num_service> <filliale>
+	-> le serveur verifie si le numero recu est dans la base de données
+	-> message de confirmation avec l'UID.
+	-> verifier si l'uid est correct
+-> insertion des messages dans la base de données
+-> interface d'administration
+-> serveur de mise à jour
+
+
+Materiels requis pour la plateforme
+-> machine fixe serveur pour le serveur kannel
+-> modem GSM 
+-> numero de telephone

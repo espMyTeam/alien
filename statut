@@ -1,0 +1,13 @@
+->fichier menu.php
+	-ajout de menu corbeille
+	-liste SMS --- liste des messages
+	-ajout de menu statistique/inscription
+	-ajout de menu statistique/paiement
+	-ajout de menu statistique/tutoriel
+->ajout de lib/hicharts
+->creation du fichier statistiques messages
+	-> ajout de fichier stat_message.php
+	-> ajout de fichier stat_client.php
+	-> ajout du fichier stat_inscription.php
+	-> ajout du champ has_service dans la table client
+	-> modification de scripts/requete.php
