@@ -26,8 +26,12 @@
 						<tr>
 							<th>Expediteur</th>
 							<th>Destinataire</th>
+<!--
 							<th>Objet</th>
+-->
+<!--
 							<th>Message</th>
+-->
 							<th>Date du sms</th>
 						</tr>
 					</thead>
@@ -38,8 +42,12 @@
 						<tr>
 							<td><?php echo $sms['expediteur'];?></td>
 							<td><?php echo $sms['destinataire'];?></td>
-							<td><?php echo $sms['objet'];?></td>
-							<td><?php echo $sms['contenu'];?></td>
+<!--
+							<td><?php// echo $sms['objet'];?></td>
+-->
+<!--
+							<td><?php //echo $sms['contenu'];?></td>
+-->
 							<td><?php echo $sms['date_sms'];?></td>
 							
 							<form method="post" action="supprimer_sms.php">

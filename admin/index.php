@@ -17,5 +17,5 @@
 				session_destroy();
 				include("connexion.php");
 			}
-include("template/footer.php");
+	include("template/footer.php");
 ?>
